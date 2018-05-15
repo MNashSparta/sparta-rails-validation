@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @computer.name %>
+</p>
+
+<p>
+  <strong>Availability:</strong>
+  <%= @computer.availability %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @computer.color %>
+</p>
+
+<p>
+  <strong>Serial number:</strong>
+  <%= @computer.serial_number %>
+</p>
+
+<%= link_to 'Edit', edit_computer_path(@computer) %> |
+<%= link_to 'Back', computers_path %>
