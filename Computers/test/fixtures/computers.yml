@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  availability: MyString
+  color: MyString
+  serial_number: MyString
+
+two:
+  name: MyString
+  availability: MyString
+  color: MyString
+  serial_number: MyString
